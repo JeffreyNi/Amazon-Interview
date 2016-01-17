@@ -27,7 +27,11 @@ public class ArrayLengthEncoding{
 	System.out.println(encodeLength(empty));
     }
 
-    
+    /**
+     * Return the Run Length Encoded string for the input array.
+     * @param arr the array of integers
+     * @return the Run length encoded string for input array
+     */
     public static String encodeLength(int[] arr) {
 	if (arr == null || arr.length == 0) { return "empty"; }
 	
